@@ -1,0 +1,59 @@
+.circle:active,
+.circle:focus,
+.circle.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.circle{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgb(164, 100, 127);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 75px;
+  position:relative;
+  z-index: initial; /*added for pt 2*/
+}
+.bar{
+  width: 75px;
+  background-color: black;
+  height: 15px;
+  margin-top: 10px;
+  margin-left: 38px;
+}
+.top{
+  margin-top: 42.5px;
+  left:0;
+}
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*Here down is for part 2*/
+
+a {
+  width: 5rem; height: 5rem;
+  border-radius: 50%;
+  background: rgb(92, 34, 58);
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  font-size: 4rem;
+  text-align: center;
+  left: 1rem;
+  top: 1rem;
+  transition: .4s;
+}
+a{
+  z-index: -1;
+}

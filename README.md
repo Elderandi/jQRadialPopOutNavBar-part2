@@ -1,1 +1,1 @@
-This project is part one of making an interactive pop out radial nav bar. This will be done using only vanilla jQuery, CSS, and html for teaching purposes. 
+This mini project uses pure jQuery and CSS to make a radial pop-out nav bar for websites.
